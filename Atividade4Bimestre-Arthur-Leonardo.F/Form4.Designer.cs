@@ -37,17 +37,13 @@
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btnwhile = new System.Windows.Forms.Button();
             this.lblcomodo = new System.Windows.Forms.Label();
-            this.txtlargura = new System.Windows.Forms.TextBox();
-            this.lbllargura = new System.Windows.Forms.Label();
-            this.txtcomp = new System.Windows.Forms.TextBox();
-            this.lblcomp = new System.Windows.Forms.Label();
             this.txtareatotal = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtareacomodo
             // 
-            this.txtareacomodo.Location = new System.Drawing.Point(650, 37);
+            this.txtareacomodo.Location = new System.Drawing.Point(639, 113);
             this.txtareacomodo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtareacomodo.Multiline = true;
             this.txtareacomodo.Name = "txtareacomodo";
@@ -58,7 +54,7 @@
             // lblresult
             // 
             this.lblresult.AutoSize = true;
-            this.lblresult.Location = new System.Drawing.Point(524, 41);
+            this.lblresult.Location = new System.Drawing.Point(513, 117);
             this.lblresult.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblresult.Name = "lblresult";
             this.lblresult.Size = new System.Drawing.Size(121, 13);
@@ -67,7 +63,7 @@
             // 
             // txtcomodo
             // 
-            this.txtcomodo.Location = new System.Drawing.Point(292, 39);
+            this.txtcomodo.Location = new System.Drawing.Point(281, 115);
             this.txtcomodo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtcomodo.Name = "txtcomodo";
             this.txtcomodo.Size = new System.Drawing.Size(105, 20);
@@ -131,7 +127,7 @@
             // lblcomodo
             // 
             this.lblcomodo.AutoSize = true;
-            this.lblcomodo.Location = new System.Drawing.Point(86, 41);
+            this.lblcomodo.Location = new System.Drawing.Point(75, 117);
             this.lblcomodo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblcomodo.Name = "lblcomodo";
             this.lblcomodo.Size = new System.Drawing.Size(203, 13);
@@ -139,45 +135,9 @@
             this.lblcomodo.Text = "Digite quantos cômodos sua casa possui:";
             this.lblcomodo.Click += new System.EventHandler(this.lblnumero_Click);
             // 
-            // txtlargura
-            // 
-            this.txtlargura.Location = new System.Drawing.Point(292, 82);
-            this.txtlargura.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtlargura.Name = "txtlargura";
-            this.txtlargura.Size = new System.Drawing.Size(105, 20);
-            this.txtlargura.TabIndex = 19;
-            // 
-            // lbllargura
-            // 
-            this.lbllargura.AutoSize = true;
-            this.lbllargura.Location = new System.Drawing.Point(99, 82);
-            this.lbllargura.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbllargura.Name = "lbllargura";
-            this.lbllargura.Size = new System.Drawing.Size(188, 13);
-            this.lbllargura.TabIndex = 18;
-            this.lbllargura.Text = "Digite a largura do cômodo em metros:";
-            // 
-            // txtcomp
-            // 
-            this.txtcomp.Location = new System.Drawing.Point(292, 125);
-            this.txtcomp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtcomp.Name = "txtcomp";
-            this.txtcomp.Size = new System.Drawing.Size(105, 20);
-            this.txtcomp.TabIndex = 21;
-            // 
-            // lblcomp
-            // 
-            this.lblcomp.AutoSize = true;
-            this.lblcomp.Location = new System.Drawing.Point(72, 128);
-            this.lblcomp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblcomp.Name = "lblcomp";
-            this.lblcomp.Size = new System.Drawing.Size(216, 13);
-            this.lblcomp.TabIndex = 20;
-            this.lblcomp.Text = "Digite o comprimento do cômodo em metros:";
-            // 
             // txtareatotal
             // 
-            this.txtareatotal.Location = new System.Drawing.Point(650, 82);
+            this.txtareatotal.Location = new System.Drawing.Point(639, 158);
             this.txtareatotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtareatotal.Multiline = true;
             this.txtareatotal.Name = "txtareatotal";
@@ -188,7 +148,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(518, 84);
+            this.label1.Location = new System.Drawing.Point(507, 160);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(129, 13);
@@ -203,10 +163,6 @@
             this.ControlBox = false;
             this.Controls.Add(this.txtareatotal);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtcomp);
-            this.Controls.Add(this.lblcomp);
-            this.Controls.Add(this.txtlargura);
-            this.Controls.Add(this.lbllargura);
             this.Controls.Add(this.txtareacomodo);
             this.Controls.Add(this.lblresult);
             this.Controls.Add(this.txtcomodo);
@@ -236,10 +192,6 @@
         private System.Windows.Forms.Button btnlimpar;
         private System.Windows.Forms.Button btnwhile;
         private System.Windows.Forms.Label lblcomodo;
-        private System.Windows.Forms.TextBox txtlargura;
-        private System.Windows.Forms.Label lbllargura;
-        private System.Windows.Forms.TextBox txtcomp;
-        private System.Windows.Forms.Label lblcomp;
         private System.Windows.Forms.TextBox txtareatotal;
         private System.Windows.Forms.Label label1;
     }
